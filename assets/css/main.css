@@ -3003,7 +3003,7 @@ input, select, textarea {
 			min-height: 0;
 		}
 
-		.spotlights > section > .image {
+		/* .spotlights > section > .image {
 			background-position:center center;
 			background-size:contain;
 			background-repeat: no-repeat;
@@ -3020,6 +3020,23 @@ input, select, textarea {
 			.spotlights > section > .image img {
 				border-radius: 0;
 				display: block;
+			} */
+
+
+		.spotlights > section > .image1 {
+			height: 22.5em;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 25em;
+			border-bottom: none;
+
+		}
+
+			.spotlights > section > .image1 img {
+				border-radius: 0;
+				display: block;
+				width: 25em;
 			}
 
 			.spotlights > section > .image:before {
