@@ -3033,10 +3033,10 @@ input, select, textarea {
 
 		}
 
-			.spotlights > section > .image1 img {
+			.spotlights > section > .image1 > img {
 				border-radius: 0;
 				display: block;
-				width: 25em;
+				max-width: 25em;
 			}
 
 			.spotlights > section > .image:before {
