@@ -3023,6 +3023,20 @@ input, select, textarea {
 			} */
 
 
+		.profileP{
+			width: 200px;
+			height: 250px;
+			border-radius:15px;
+			margin-bottom: 15px;
+		}
+
+		.profilePhoto{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
 		.spotlights > section > .image1 {
 			height: 22.5em;
 			display: flex;
